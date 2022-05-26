@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "instaleap-books-runner">
+    <test name ="boooks-module">
+        <classes>
+            <class name ="com.test.BooksSearchTest"/>
+        </classes>
+    </test>
+</suite>

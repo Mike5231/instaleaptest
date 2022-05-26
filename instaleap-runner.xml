@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "instaleap-runner" parallel="tests">
+    <test name ="boooks-module">
+        <classes>
+            <class name ="com.test.BooksSearchTest"/>
+        </classes>
+    </test>
+    <test name ="million-module">
+        <classes>
+            <class name ="com.test.MillionContactUsTest"/>
+        </classes>
+    </test>
+</suite>

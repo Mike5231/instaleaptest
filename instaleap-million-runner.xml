@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "instaleap-million-runner">
+    <test name ="million-module">
+        <classes>
+            <class name ="com.test.MillionContactUsTest"/>
+        </classes>
+    </test>
+</suite>
